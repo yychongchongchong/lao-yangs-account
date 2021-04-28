@@ -1,0 +1,87 @@
+page{
+  padding-bottom: 90rpx;
+}
+.goods_item_wrap {
+  font-size: 36rpx;
+  .intro_title{
+    display: flex;
+    color: #666;
+    padding: 15rpx 0;
+    text-align: center;
+    font-size: 32rpx;
+    width: 100%;
+    .goods_intro__num {
+      flex: 2;
+    }
+    .goods_intro_title {
+      flex: 5;
+    }
+    .goods_intro_nuit_price {
+      flex: 2;
+    }
+    .goods_intro_total {
+      flex: 2;
+    }
+    .goods_intro_price {
+      flex: 2;
+    }
+  }
+  .goods {
+    text-align: center;
+    display: flex;
+    height: 60rpx;
+    width: 100%;
+    padding-top: 10rpx;
+    .goods_index{
+      flex: 2;
+      text-align: center;
+    }
+    .goods_name {
+      flex: 5;
+      font-size: 41rpx;
+    }
+    
+
+    .goods_price {
+      flex: 2;
+      color: red;
+    }
+
+    .goods_change_num_tool {
+      display: flex;
+      flex: 2;
+      justify-content: space-around;
+      .num_edit {
+        height: 40rpx;
+        align-items: center;
+        justify-content: center;
+        border: 1rpx solid #ccc;
+        flex: 1;
+      }
+      .goods_num {
+        flex: 2;
+        font-size: 28rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .goods_all_price {
+      flex: 2;
+      color: red;
+      text-align: center;
+    }
+  }
+  .goods_end_all_price{
+    position: fixed;
+    height: 50rpx;
+    width: 30%;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
